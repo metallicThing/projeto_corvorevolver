@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://be4042h4t8bb8"
-path="res://.godot/imported/iron_metal.png-74be94a01cc0470ae5e8793376e41242.ctex"
+uid="uid://r5h36subf1n3"
+path="res://.godot/imported/burnt_metal.png-806bdedf613bdc2d91cec1896e77d8ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/visual/textures/materials/iron_metal.png"
-dest_files=["res://.godot/imported/iron_metal.png-74be94a01cc0470ae5e8793376e41242.ctex"]
+source_file="res://game/assets/textures/materials/burnt_metal.png"
+dest_files=["res://.godot/imported/burnt_metal.png-806bdedf613bdc2d91cec1896e77d8ed.ctex"]
 
 [params]
 

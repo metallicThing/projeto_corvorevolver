@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1e6v4cqma61d"
-path="res://.godot/imported/black_metal.png-7c08452f55df0f5f37c913852be635f7.ctex"
+uid="uid://bgh02aq8rc20v"
+path="res://.godot/imported/wood.png-61519f12d2ee892751e0964cc225e403.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/visual/textures/materials/black_metal.png"
-dest_files=["res://.godot/imported/black_metal.png-7c08452f55df0f5f37c913852be635f7.ctex"]
+source_file="res://game/assets/textures/materials/wood.png"
+dest_files=["res://.godot/imported/wood.png-61519f12d2ee892751e0964cc225e403.ctex"]
 
 [params]
 
