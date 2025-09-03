@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=4 uid="uid://cdqxaknfr3ny6"]
+[gd_scene load_steps=25 format=4 uid="uid://cdqxaknfr3ny6"]
 
 [ext_resource type="Script" uid="uid://cjc7kqwghwapw" path="res://game/code/player_controller.gd" id="1_lvpx6"]
 [ext_resource type="Texture2D" uid="uid://cfudpec5qto8o" path="res://game/assets/models/items/player_revolver_black_metal.png" id="1_uy5fi"]
@@ -556,6 +556,18 @@ tracks/8/path = NodePath("Armature/Skeleton3D:bullet_2")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = PackedFloat32Array(0, 1, 0.758347, 0.61475, -0.176381, 0.126027, 0.366667, 1, 0.758347, 0.61475, -0.176381, 0.126027, 0.4, 1, 0.758092, 0.614568, -0.177474, 0.126912, 0.433333, 1, 0.756699, 0.61357, -0.18332, 0.131652, 0.466667, 1, 0.75299, 0.610893, -0.198006, 0.143564, 0.5, 1, 0.745089, 0.605119, -0.225926, 0.166227, 0.533333, 1, 0.726187, 0.591054, -0.280806, 0.210845, 0.566667, 1, 0.68989, 0.563507, -0.360905, 0.276152, 0.6, 1, 0.626226, 0.514371, -0.462646, 0.359476, 0.625, 1, 0.557127, 0.46042, -0.543883, 0.426396)
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Armature/Skeleton3D/bullet:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
 
 [sub_resource type="Animation" id="Animation_1q5ca"]
 resource_name = "Rest"
@@ -624,10 +636,26 @@ tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = PackedFloat32Array(0, 1, 0.704444, 0.70976, -5.82273e-08, 5.90474e-08)
 
+[sub_resource type="Animation" id="Animation_lvpx6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Armature/Skeleton3D/bullet:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_k0w63"]
 _data = {
 &"Fire": SubResource("Animation_uvhhs"),
 &"Hammer": SubResource("Animation_2oldn"),
+&"RESET": SubResource("Animation_lvpx6"),
 &"Reload_end": SubResource("Animation_c4fuy"),
 &"Reload_start": SubResource("Animation_irmx5"),
 &"Reload_step": SubResource("Animation_wiv4p"),
@@ -642,12 +670,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3929, 0)
 shape = SubResource("CapsuleShape3D_uxhcu")
 
 [node name="camera_holder" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.28, 0)
 
 [node name="camera" type="Camera3D" parent="camera_holder"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.27989, 0)
 
 [node name="gun_holder" type="Node3D" parent="camera_holder"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.477334, 2.00024, -0.797481)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.477, -0.312375, -0.797)
 
 [node name="revolver" type="Node3D" parent="camera_holder/gun_holder"]
 transform = Transform3D(-1.09278e-08, 0, 0.25, 0, 0.25, 0, -0.25, 0, -1.09278e-08, 0, -0.547234, -0.0822318)
@@ -660,36 +688,36 @@ bones/0/name = "gun_body"
 bones/0/parent = -1
 bones/0/rest = Transform3D(0, 1, 0, 0, 0, 1, 1, 0, 0, -0.544559, 0.265155, 0.916116)
 bones/0/enabled = true
-bones/0/position = Vector3(-0.544559, 0.265155, 0.916116)
-bones/0/rotation = Quaternion(0.5, 0.5, 0.5, -0.5)
+bones/0/position = Vector3(-0.557699, 0.104939, 0.651919)
+bones/0/rotation = Quaternion(0.662247, 0.522258, 0.413478, -0.343092)
 bones/0/scale = Vector3(1, 1, 1)
 bones/1/name = "hammer"
 bones/1/parent = 0
 bones/1/rest = Transform3D(-1, -2.01976e-07, 9.05306e-08, 2.21249e-07, -0.923697, 0.383124, 6.24082e-09, 0.383124, 0.923697, 0, -0.0665987, 0.638107)
 bones/1/enabled = true
-bones/1/position = Vector3(0, -0.0665987, 0.638107)
-bones/1/rotation = Quaternion(2.4668e-08, 0.195324, 0.980739, 1.07884e-07)
+bones/1/position = Vector3(7.45057e-09, -0.0665987, 0.638107)
+bones/1/rotation = Quaternion(1.20664e-08, 0.195324, 0.980739, 1.09173e-07)
 bones/1/scale = Vector3(1, 1, 1)
 bones/2/name = "trigger_2"
 bones/2/parent = 0
 bones/2/rest = Transform3D(1, 2.18921e-07, 1.65123e-06, -1.6544e-06, 0.245747, 0.969334, -1.93578e-07, -0.969334, 0.245747, 0, 0.124524, -0.143109)
 bones/2/enabled = true
 bones/2/position = Vector3(0, 0.124524, -0.143109)
-bones/2/rotation = Quaternion(-0.614106, 5.84376e-07, -5.93406e-07, 0.789223)
+bones/2/rotation = Quaternion(-0.614106, 5.89197e-07, -5.82849e-07, 0.789223)
 bones/2/scale = Vector3(1, 1, 1)
 bones/3/name = "cylinder_2"
 bones/3/parent = 0
 bones/3/rest = Transform3D(1.78814e-07, 0, -1, 0, 1, 0, 1, 0, 1.78814e-07, 0, 0.133817, 0.405167)
 bones/3/enabled = true
-bones/3/position = Vector3(0, 0.133817, 0.405167)
-bones/3/rotation = Quaternion(0, -0.707107, 0, 0.707107)
+bones/3/position = Vector3(-0.368508, 0.139572, 0.406972)
+bones/3/rotation = Quaternion(-4.81276e-09, -0.971207, 1.75184e-08, 0.238239)
 bones/3/scale = Vector3(1, 1, 1)
 bones/4/name = "bullet_2"
 bones/4/parent = -1
 bones/4/rest = Transform3D(-0.00751877, 0.999972, 1.78329e-09, 0.999972, 0.00751865, -1.65846e-07, -1.65855e-07, 5.36296e-10, -1, -0.531549, -0.100982, 1.30456)
 bones/4/enabled = true
-bones/4/position = Vector3(-0.531549, -0.100982, 1.30456)
-bones/4/rotation = Quaternion(0.704444, 0.70976, -5.82273e-08, 5.90474e-08)
+bones/4/position = Vector3(-0.440928, 0.195846, 0.123347)
+bones/4/rotation = Quaternion(0.557127, 0.46042, -0.543883, 0.426396)
 bones/4/scale = Vector3(1, 1, 1)
 
 [node name="bullet" type="MeshInstance3D" parent="camera_holder/gun_holder/revolver/Armature/Skeleton3D"]
