@@ -39,6 +39,6 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 func _input(event):
 	if event is InputEventMouseMotion:
-		rotate_y(deg_to_rad(event.relative.x * -0.15))
-		camera.rotate_x(deg_to_rad(event.relative.y * -0.15))
+		rotate_y(deg_to_rad(event.relative.x * -0.20))
+		camera.rotate_x(deg_to_rad(event.relative.y * -0.20))
 		

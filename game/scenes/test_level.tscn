@@ -12,6 +12,9 @@ sky_material = SubResource("ProceduralSkyMaterial_4keis")
 [sub_resource type="Environment" id="Environment_jfims"]
 background_mode = 2
 sky = SubResource("Sky_rstwl")
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 9.13
+reflected_light_source = 2
 tonemap_mode = 2
 glow_enabled = true
 
