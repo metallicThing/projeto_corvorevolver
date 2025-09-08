@@ -10,4 +10,6 @@ Projétil:
 https://www.youtube.com/watch?v=vGpFwaLUG4U
 https://www.youtube.com/watch?v=6bbPHsB9TtI
 
-Assistir e verificar qual a melhora maneira de fazer o projétil do trabuco, considerando que vai ter ricochete
+Assistir e verificar qual a melhor maneira de fazer o projétil do trabuco, considerando que vai ter ricochete
+
+Os niveis serão montados com tileset, facilita tudo
