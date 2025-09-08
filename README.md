@@ -13,7 +13,6 @@ Assistir e verificar qual a melhor maneira de fazer o projétil do trabuco, cons
 Os niveis serão montados com tileset, facilita tudo
 
 CONTEÚDO DO JOGO:
-Iremos fazer primeiramente o que estiver nesta lista, em paralelo com design de um nível, e se estiver satisfatório o resultado daremos sequência no restante do jogo, possíveis armas e inimigos
 
 MECÂNICAS:
 
