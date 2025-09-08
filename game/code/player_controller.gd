@@ -37,8 +37,13 @@ func _physics_process(delta: float) -> void:
 		velocity.z = move_toward(velocity.z, 0, move_speed)
 		
 	move_and_slide()
+	
 func _input(event):
 	if event is InputEventMouseMotion:
 		rotate_y(deg_to_rad(event.relative.x * -0.20))
 		camera.rotate_x(deg_to_rad(event.relative.y * -0.20))
-		
+		if rad_to_deg(camera.rotation.x) > 85: #upper limit
+			camera.rotation.x = deg_to_rad(85)
+		elif rad_to_deg(camera.rotation.x) < -75: #lower limit
+			camera.rotation.x = deg_to_rad(-75)
+	

@@ -18,6 +18,7 @@ var animEnd = false
 
 #objects
 @onready var anim = $AnimationPlayer
+@export  var revolver_bullet:PackedScene #WARNING#
 
 func _process(delta: float) -> void:
 	previous_state = current_state
@@ -79,10 +80,12 @@ func misfire():
 	
 func fire():
 	if previous_state != current_state:
+		revolver_bullet.instantiate() #WARNING#
 		loaded_ammo -= 1
 		animEnd = false
 		anim.play("Fire")
 	if animEnd:
+		anim.play("Rest")
 		next_state = "unready"
 	
 func _on_animation_player_animation_finished(anim_name: StringName) -> void:
