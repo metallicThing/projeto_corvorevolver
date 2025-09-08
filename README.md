@@ -12,47 +12,39 @@ Assistir e verificar qual a melhor maneira de fazer o projétil do trabuco, cons
 
 Os niveis serão montados com tileset, facilita tudo
 
-CONTEÚDO DO JOGO:
+***CONTEÚDO DO JOGO:***
+**MECÂNICAS:**
+- Correr (não anda, só corre)
+- Pular (controle reduzido em 50% no ar, para não ser muito quebrado, e ainda sim não tirar o controle do jogador)
+- Ataque Corpo-a-Corpo (para recuperar munição e ter forma simples de atacar inimigos de perto)
+- Empurrão (chute, quando não tem garrafa, apenas empurra o inimigo para longe)
+- Dash (para esquiva e mobilidade)
+- Pulo Duplo (para esquiva e mobilidade também)
 
-MECÂNICAS:
+**ARMAS e ITENS:**
+- Revolver de Prego (doze tiros rápidos)
+- Espingarda (rifle de alavanca)
+- Escopeta (doze)
+- Trabuco (revolver pesado com ricochete)
+- Garrafa (melee)
+- Jetpack (dash e pulo duplo)
 
-Correr (não anda, só corre)
-Pular (controle reduzido em 50% no ar, para não ser muito quebrado, e ainda sim não tirar o controle do jogador)
-Ataque Corpo-a-Corpo (para recuperar munição e ter forma simples de atacar inimigos de perto)
-Empurrão (chute, quando não tem garrafa, apenas empurra o inimigo para longe)
-Dash (para esquiva e mobilidade)
-Pulo Duplo (para esquiva e mobilidade também)
+**INIMIGOS:**
+- Louco (maluco com garrafa que vai no corpo-a-corpo)
+- Agiota (revolver comum, usa preto e chapéu)
+- Barman (carrega escopeta, usa bandana no pescoço e um colete bacana)
+- Caçador de Recompensas (encapuzado, usa espingarda de longe)
+- Sherife de Lata (usa jetpack e dois revólveres)
 
-ARMAS e ITENS:
-
-Revolver de Prego (doze tiros rápidos)
-Espingarda (rifle de alavanca)
-Escopeta (doze)
-Trabuco (revolver pesado com ricochete)
-Garrafa (melee)
-Jetpack (dash e pulo duplo)
-
-INIMIGOS:
-
-Louco (maluco com garrafa que vai no corpo-a-corpo)
-Agiota (revolver comum, usa preto e chapéu)
-Barman (carrega escopeta, usa bandana no pescoço e um colete bacana)
-Caçador de Recompensas (encapuzado, usa espingarda de longe)
-Sherife de Lata (usa jetpack e dois revólveres)
-
-NÍVEIS:
-
-Barzinho (tutorial)
+**NÍVEIS:**
+*Barzinho* (tutorial)
 - Tutorial bem básico pra apresentar mecânica base do jogo
-
-Ruas de Jurupeca (nível 1)
+*Ruas de Jurupeca* (nível 1)
 - Uns bandido e caçador de recompensa
-
-Xilindró Espontanium (nível 2)
+*Xilindró Espontanium* (nível 2)
 - Xilindró ENORME, polícia e o sherife de lata
 - Level design começa à ficar estranho
-
-Saberoque Maquinachitus (nível 3)
+*Saberoque Maquinachitus* (nível 3)
 - Máquina Gigante (não vê por fora, só talvez, mas em pouco detalhe)
 - Aqui o level design se fica louco 
 - Bichos de Lata
