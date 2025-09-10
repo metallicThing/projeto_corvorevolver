@@ -1,8 +1,10 @@
 Aqui por enquanto vou deixar os tutorias e passo-a-passo da criação de modelos, texturas, códigos e mecânicas que utilizo para não ser necessário revisitar vídeos o tempo todo  
 
-Geral (4h) https://www.youtube.com/watch?v=fqvNNQQPPS8  
+Geral (4h) https://www.youtube.com/watch?v=fqvNNQQPPS8
 
-Como diminuir tamanho das texturas no Blender https://www.youtube.com/watch?v=oWLe-FVObKE&t=207s  
+**Como diminuir tamanho das texturas no Blender https://www.youtube.com/watch?v=oWLe-FVObKE&t=207s**
+
+<img width="1535" height="599" alt="image" src="https://github.com/user-attachments/assets/02955a01-8de6-4d00-9f20-8241aaea8d53" />
 
 Projétil:  
 https://www.youtube.com/watch?v=vGpFwaLUG4U  
@@ -10,7 +12,7 @@ https://www.youtube.com/watch?v=6bbPHsB9TtI
 
 Assistir e verificar qual a melhor maneira de fazer o projétil do trabuco, considerando que vai ter ricochete  
 
-Os niveis serão montados com tileset, facilita tudo  
+Os niveis serão montados com tileset, facilita tudo
 
 ***CONTEÚDO DO JOGO:***  
 **MECÂNICAS:**  
