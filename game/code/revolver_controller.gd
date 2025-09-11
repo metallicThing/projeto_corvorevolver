@@ -80,7 +80,7 @@ func misfire():
 	
 func fire():
 	if previous_state != current_state:
-		revolver_bullet.instantiate() #WARNING#
+		#revolver_bullet.instantiate() #WARNING#
 		loaded_ammo -= 1
 		animEnd = false
 		anim.play("Fire")
