@@ -11,6 +11,8 @@ https://www.youtube.com/watch?v=vGpFwaLUG4U
 https://www.youtube.com/watch?v=6bbPHsB9TtI  
 
 Sites úteis para modelagem e textura 3D? https://www.youtube.com/watch?v=vfcR6g1sfQ0
+thejang.com/textures - texturas
+mebiusbox.github.io/contents/EffectTextureMaker/ - texturas animadas
 
 Assistir e verificar qual a melhor maneira de fazer o projétil do trabuco, considerando que vai ter ricochete  
 
