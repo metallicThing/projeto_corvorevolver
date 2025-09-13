@@ -10,7 +10,7 @@ Projétil:
 https://www.youtube.com/watch?v=vGpFwaLUG4U  
 https://www.youtube.com/watch?v=6bbPHsB9TtI  
 
-Sites úteis para modelagem e textura 3D? https://www.youtube.com/watch?v=vfcR6g1sfQ0
+Sites úteis para modelagem e textura 3D? https://www.youtube.com/watch?v=vfcR6g1sfQ0  
 https://thejang.com/textures - texturas  
 https://mebiusbox.github.io/contents/EffectTextureMaker/ - texturas animadas
 
