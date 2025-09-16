@@ -675,15 +675,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.28, 0)
 
 [node name="camera" type="Camera3D" parent="camera_holder"]
 
+[node name="crosshair" type="RayCast3D" parent="camera_holder/camera"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, -0.697461)
+target_position = Vector3(100, 0, 0)
+
 [node name="gun_holder" type="Node3D" parent="camera_holder"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.477, -0.312375, -0.797)
 
 [node name="revolver" type="Node3D" parent="camera_holder/gun_holder"]
 transform = Transform3D(-1.09278e-08, 0, 0.25, 0, 0.25, 0, -0.25, 0, -1.09278e-08, 0, -0.547234, -0.0822318)
 script = ExtResource("2_nggnu")
-
-[node name="bullet_exit" type="Node3D" parent="camera_holder/gun_holder/revolver" groups=["bullet_exit"]]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.39298, 2.47993, 1.19209e-07)
 
 [node name="Armature" type="Node3D" parent="camera_holder/gun_holder/revolver"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.522923, 1.60113, -0.913621)
