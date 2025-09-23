@@ -59,3 +59,7 @@ Os niveis serão montados com tileset, facilita tudo
 - Aqui o level design se fica louco   
 - Bichos de Lata  
 - Máquina é um cágado de metal com asa de borboleta e rabo de lagarto (acho que consigo modelar isso em baixa fidelidade)  
+
+**ATALHOS BLENDER**
+ctrl + a = aplica transform (não deixa estranha as escalas)  
+shift + s = ajustar cursor  
